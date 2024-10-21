@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn & SignUp Form | Alwan Maulana Firdaus 1227050017</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Boxicons CSS -->
+  <link 
+  href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' 
+  rel='stylesheet'/>
+  
+  </head>
+  <body>
+    <div class="container">
+      <div class="buttons">
+        <button class="signin-btn">SignIn</button>
+        <button class="signup-btn">SignUp</button>
+      </div>
+      <div class="form-bg"></div>
+      <form class="form sign-in">
+        <div class="form-input-wrapper">
+          <input
+            autocomplete="off"
+            type="text"
+            class="form-input"
+            id="username"
+            placeholder="Username"
+          />
+          <p class="message">Ooopss! Silahkan Coba Lagi</p>
+        </div>
+        <div class="form-input-wrapper">
+          <input
+            autocomplete="off"
+            type="email"
+            class="form-input"
+            id="email"
+            placeholder="Email"
+          />
+          <p class="message">Ooopss! Silahkan Coba Lagi</p>
+        </div>
+        <div class="form-input-wrapper">
+          <input
+            autocomplete="off"
+            type="password"
+            class="form-input"
+            id="password"
+            placeholder="Password"
+          />
+          <i class='bx bx-hide eye-icon'></i>
+          <p class="message">Ooopss! Silahkan Coba Lagi</p>
+        </div>
+        <div class="form-input-wrapper">
+          <input
+            autocomplete="off"
+            type="password"
+            class="form-input"
+            id="password2"
+            placeholder="Konfirmasi Password"
+          />
+          <i class='bx bx-hide eye-icon'></i>
+          <p class="message">Ooopss! Silahkan Coba Lagi</p>
+        </div>
+        <input type="submit" value="Submit" class="form-btn" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
